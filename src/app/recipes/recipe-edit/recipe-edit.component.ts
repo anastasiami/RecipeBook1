@@ -54,8 +54,15 @@ const newRecipe = new Recipe(  this.recipeForm.value.name,
   this.recipeForm.value.image, this.recipeForm.value.category,
   new  Date().toISOString().slice(0, 10));
     if (this.editMode){
- // this.recipeService.updateRecipe(this.id, this.recipeForm.value);
-
+      if(window.confirm('Are you sure, you want to update?')){
+        const editedRecipe = new Recipe(  this.recipeForm.value.name,
+          this.recipeForm.value.shortDesc, this.recipeForm.value.longDesc,
+          this.recipeForm.value.image, this.recipeForm.value.category,
+          this.recipe.createDate);
+        this.storageService.updateRecipe(this.id, editedRecipe).subscribe(data => {
+          this.router.navigate(['/recipes']);
+        });
+      }
 } else {
       this.storageService.createRecipes(newRecipe).subscribe((data: {}) => {
 

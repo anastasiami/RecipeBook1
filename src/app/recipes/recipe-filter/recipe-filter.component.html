@@ -12,9 +12,9 @@
   </div>
   <div class="col-auto ml-1 mt-2">Choose category:</div>
   <div class="col-3 form-group">
-    <select class="form-control" id="" *ngFor="let recipe of recipes">
+    <select class="form-control" id="" >
       <option value="" selected disabled>Please select</option>
-      <option  value="{{recipe.category}}">{{recipe.category}}</option>
+      <option *ngFor="let recipe of recipes"  value="{{recipe.category}}">{{recipe.category}}</option>
 
     </select>
   </div>
