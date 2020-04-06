@@ -1,0 +1,21 @@
+<div class="row mt-3">
+  <div class="col-xs-3">
+    <button class="btn btn-success" (click)="onNewRecipe()">Add Recipe</button>
+  </div>
+  <div class="col-auto ml-1 mt-2">Sort by date:</div>
+  <div class="col-3 form-group">
+    <select class="form-control" id="exampleFormControlSelect1">
+      <option value="" selected disabled>Please select</option>
+      <option>from new to old</option>
+      <option>from old to new</option>
+    </select>
+  </div>
+  <div class="col-auto ml-1 mt-2">Choose category:</div>
+  <div class="col-3 form-group">
+    <select class="form-control" id="" *ngFor="let recipe of recipes">
+      <option value="" selected disabled>Please select</option>
+      <option  value="{{recipe.category}}">{{recipe.category}}</option>
+
+    </select>
+  </div>
+</div>

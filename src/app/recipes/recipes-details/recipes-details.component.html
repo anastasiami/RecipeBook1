@@ -1,0 +1,32 @@
+<div class="row mt-6">
+  <div class="col-12">
+    <img [src]="recipe.imagePath" alt="" class="img-fluid">
+  </div>
+</div>
+
+<div class="row">
+
+  <div class="col-12">
+    <h1>{{recipe.name}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+   {{recipe.shortDesc}}
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    {{recipe.longDesc}}
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-12">
+
+    <button class=" btn btn-primary" (click)="onEdit()">Edit</button>
+    <button class="btn btn-danger ml-2" routerLink="recipe" (click)="onDelete()">Delete</button>
+
+  </div>
+</div>

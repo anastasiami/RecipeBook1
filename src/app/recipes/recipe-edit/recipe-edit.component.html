@@ -1,0 +1,56 @@
+<div class="row">
+  <div class="col-12">
+    <form [formGroup]="recipeForm" (ngSubmit)="onSubmit()">
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name"  formControlName="name" class="form-control">
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-group">
+            <label for="category">Category</label>
+            <input type="text" id="category"  formControlName="category" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="imagePath">Image Url</label>
+            <input type="text"id="imagePath" formControlName="imagePath"class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <img  alt="" class="img-fluid">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="shortDesc">Short description</label>
+            <input type="text" id="shortDesc"  formControlName="shortDesc" class="form-control">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="longDesc">Instruction</label>
+            <textarea type="text" id="longDesc" formControlName="longDesc" rows="6" class="form-control"> </textarea>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12">
+          <button  type="button" class="btn btn-danger float-left w-25" (click)="onCancel()">Cancel</button>
+          <button  type="submit" class="btn btn-success float-right w-25"  [disabled]="!recipeForm.valid">Save</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</div>
