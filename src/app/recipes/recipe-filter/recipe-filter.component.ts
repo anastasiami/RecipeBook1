@@ -32,13 +32,13 @@ this.load();
       //console.log(this.recipes[1].category);
     });
   }
-
+/*
   getCategory(){
     for ( let i = 0; i < this.recipes.length; i++){
       this.category.push(this.recipes[i].category);
     }
+*/
 
-  }
   onNewRecipe() {
 
     this.router.navigate(['add']);
