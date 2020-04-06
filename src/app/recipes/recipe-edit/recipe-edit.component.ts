@@ -51,13 +51,13 @@ onSubmit(){
   console.log(new  Date().toString().slice(0, 15));
 const newRecipe = new Recipe(  this.recipeForm.value.name,
   this.recipeForm.value.shortDesc, this.recipeForm.value.longDesc,
-  this.recipeForm.value.image, this.recipeForm.value.category,
+  this.recipeForm.value.imagePath, this.recipeForm.value.category,
   new  Date().toISOString().slice(0, 10));
     if (this.editMode){
       if(window.confirm('Are you sure, you want to update?')){
         const editedRecipe = new Recipe(  this.recipeForm.value.name,
           this.recipeForm.value.shortDesc, this.recipeForm.value.longDesc,
-          this.recipeForm.value.image, this.recipeForm.value.category,
+          this.recipeForm.value.imagePath, this.recipeForm.value.category,
           this.recipe.createDate);
         this.storageService.updateRecipe(this.id, editedRecipe).subscribe(data => {
           this.router.navigate(['/recipes']);
@@ -78,7 +78,7 @@ private initForm() {
     let shortDesc = '';
     let longDesc = '';
     if (this.editMode) {
-      recipeName = this.recipe.name;
+      recipeName = this.recipe.name ;
       image =  this.recipe.imagePath;
       shortDesc =  this.recipe.shortDesc;
       longDesc =  this.recipe.longDesc;

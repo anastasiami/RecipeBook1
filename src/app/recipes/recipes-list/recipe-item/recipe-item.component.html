@@ -1,14 +1,17 @@
 <a href="#" class="list-group-item clearfix"
 [routerLink]="[id]"
 routerLinkActive="active">
-      <div class="float-left">
+     <div class="row">
+      <div class="col-8">
         <h4  class="list-group-item-heading">{{recipe.name}}</h4>
         <p class="list-group-item-text"> {{recipe.shortDesc}}</p>
         <a>Category: {{recipe.category}}</a>
         <p>Created:{{recipe.createDate}}</p>
       </div>
-      <span class="float-right">
-        <img src="{{recipe.imagePath}}"  alt="{{recipe.name}}" class="img-fluid" style="max-height: 100px;">
+      <span class=" col-4">
+        <img src="{{recipe.imagePath}}"  alt="{{recipe.name}}" class="img-fluid float-right" style="max-height: 150px;">
       </span>
+     </div>
     </a>
+
 

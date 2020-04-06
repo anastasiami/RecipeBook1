@@ -1,36 +1,31 @@
 {
   "recipes": [
     {
-      "name": "two1",
-      "shortDesc": "this is my recipe",
-      "longDesc": "hslkjf;skfeoefs;nkf;sn",
-      "category": "main",
-      "createDate": "Mon Apr 06 2020",
-      "id": 2
+      "name": "Strawberry Cream Cheese Pound Cake",
+      "shortDesc": "\"The perfect textured pound cake,\" says Ashley Steele, with a bonus: \"It uses less sugar than traditional recipes because it features sweet fresh strawberries.\"",
+      "longDesc": "Ingredients\n8 ounces nonfat cream cheese, softened \n1 cup butter, softened\n2 teaspoons butter, softened\n2 cups white sugar\n1 teaspoon salt\n2 teaspoons vanilla\n6 eggs, room temperature\n3 cups all-purpose flour, sifted\n2 cups strawberries, muddled\n1 teaspoon vanilla sugar\n Step 1\nPreheat the oven to 350 degrees F (175 degrees C). Grease a fluted tube pan (such as Bundt®).\n Step 2\nCream nonfat cream cheese, 1 cup plus 2 teaspoons butter, and sugar together in a bowl until light and fluffy, about 3 minutes. Add salt and vanilla extract and beat the mixture well. Add eggs, one at a time, beating thoroughly after each addition. Gradually add flour, one cup at a time, beating until just incorporated into the batter. Add strawberries after the last cup of flour and beat for a few seconds. Finish mixing with spatula if you need to.\n\n Step 3\nPour batter into the prepared Bundt® pan. Lightly sprinkle the top of the batter with the vanilla sugar.\n\n Step 4\nBake in the preheated oven until a toothpick inserted into the center comes out clean, about 1 hour. Let cool in the pan. Invert carefully onto a serving plate or cooling rack. Let cool completely.",
+      "imagePath": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F7308107.jpg&w=596&h=596&c=sc&poi=face&q=85",
+      "category": "Cake",
+      "createDate": "2020-04-06",
+      "id": 9
     },
     {
-      "name": "ewrcetr",
-      "shortDesc": "xecdrvtg",
-      "longDesc": "xsdecvt",
-      "category": "wesdcrvft",
+      "name": "Pasta, Chicken and Artichokes",
+      "shortDesc": "Chicken breasts with pasta and artichokes.",
+      "longDesc": "Ingredient \n4 ounces uncooked pasta\n1 teaspoon olive oil\n1 teaspoon minced garlic\n3 skinless, boneless chicken breast halves - cut into strips\n¼ cup chicken broth\n¼ cup fresh chopped broccoli\n¼ cup chopped tomatoes\n¼ (14 ounce) can artichoke hearts, drained and sliced\n¼ cup fresh sliced mushrooms\n¼ cup chopped red bell pepper\nsalt and pepper to taste\n4 tablespoons grated Parmesan cheese\n1 tablespoon chopped fresh parsley\n\nOops! We cannot find any ingredients on sale near you. Do we have the correct zip code?\n\n00000\n UPDATE\nor use the browser to\nFind Me\nDirectionsInstructions Checklist\n Step 1\nBring a large pot of water to a boil. Cook pasta in boiling water until done. Drain, and set aside.\n\n Step 2\nIn a large saute pan, heat olive oil over medium high heat; brown the chicken and garlic in oil (about 5 minutes). Remove from the pan, and set aside.\n\n Step 3\nPour the chicken broth into the pan; then add the broccoli and tomato, and cook for about 5 minutes. Stir in the artichoke hearts, mushrooms, red bell pepper, cooked chicken, and pasta; cook for 3 to 5 more minutes, or until hot. Season to taste with salt and pepper.\n\n Step 4\nTransfer to a serving bowl, and top with Parmesan cheese and parsley. Serve.",
+      "imagePath": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F694251.jpg&w=596&h=399.32000000000005&c=sc&poi=face&q=85",
+      "category": "Pasta",
       "createDate": "2020-04-06",
-      "id": 3
+      "id": 10
     },
     {
-      "name": "aedfsrgt",
-      "shortDesc": "werft",
-      "longDesc": "werfvgtby",
-      "category": "werty",
+      "name": "Keto Berry-Pecan Cheesecake Bars",
+      "shortDesc": "These cheesecake bars are an excellent sweet on a low-carb or keto lifestyle.",
+      "longDesc": "Crust:\n1 cup pecans\n1 teaspoon stevia-erythritol sweetener (such as Truvia®)\n1 teaspoon cinnamon\n¼ teaspoon ground nutmeg\n2 tablespoons melted butter\nFilling:\n1 egg\n12 ounces cream cheese\n½ cup stevia-erythritol sweetener (such as Truvia®)\n¼ cup sour cream\n½ teaspoon vanilla extract\n¼ cup unsweetened almond milk\n1 tablespoon melted butter\nTopping:\n1 cup frozen mixed berries\n1 tablespoon stevia-erythritol sweetener (such as Truvia®)\nDirectionsInstructions Checklist\n Step 1\nPreheat the oven to 350 degrees F (175 degrees C).\n\n Step 2\nAdd pecans to a food processor and chop very finely. Add sweetener, cinnamon, and nutmeg and process for a few more seconds. Pour mixture into a bowl and add melted butter. Stir together and press crust mixture into the bottom of a divided brownie pan with the divider removed.\n\n Step 3\nBeat egg until fluffy in a large bowl with an electric mixer. Mix in cream cheese 1 ounce at a time. Beat mixture until cream cheese is smooth. Add sweetener, sour cream, vanilla extract, and almond milk. Beat together until filling is smooth. Stir in melted butter. Pour filling over the crust in the brownie pan. Insert divider into the pan.\n\n Step 4\nBake in the preheated oven for about 35 minutes.\n\n Step 5\nMeanwhile, heat a small pot over medium heat. Add mixed berries and sweetener and bring to a simmer, about 5 minutes. Stir berries and crush some with a spoon so that a liquid starts to form. Cook for about 10 minutes more.\n\n Step 6\nAllow cheesecake bars to cool in the brownie pan, about 1 hour. Pour berry sauce on top of bars.",
+      "imagePath": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F1036682.jpg&w=596&h=792.6800000000001&c=sc&poi=face&q=85",
+      "category": "Cake",
       "createDate": "2020-04-06",
-      "id": 4
-    },
-    {
-      "name": "sfdhgfj",
-      "shortDesc": "ewrtr",
-      "longDesc": "qwertryt",
-      "category": "srdgtf",
-      "createDate": "2020-04-06",
-      "id": 5
+      "id": 11
     }
   ]
 }

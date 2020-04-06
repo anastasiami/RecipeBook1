@@ -18,7 +18,7 @@ import {StorageServiceModule} from 'ngx-webstorage-service';
 import {HttpClientModule} from '@angular/common/http';
 import {LocalStorageService} from './recipes/LocalStorage.service';
 import { RecipeFilterComponent } from './recipes/recipe-filter/recipe-filter.component';
-
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +36,8 @@ import { RecipeFilterComponent } from './recipes/recipe-filter/recipe-filter.com
     FormsModule,
     ReactiveFormsModule,
     AppRoutingModule,
-    StorageServiceModule
+    StorageServiceModule,
+    Ng2SearchPipeModule
   ],
   providers: [RecipeService, LocalStorageService ],
   bootstrap: [AppComponent]

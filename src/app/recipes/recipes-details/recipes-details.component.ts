@@ -18,11 +18,13 @@ export class RecipesDetailsComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
     this.route.params.subscribe(
       (params: Params) => {
         this.id = this.route.snapshot.params['id'];
         this.storageService.getRecipe(this.id).subscribe((data: {}) => {
           this.recipe = data;
+
         });
 
       }
